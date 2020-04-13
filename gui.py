@@ -1,3 +1,6 @@
+# Author:together08
+# Upgrade Date: 2020-04-13
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
