@@ -878,7 +878,7 @@
        <string/>
       </property>
       <property name="text">
-       <string>2.更新订阅链接</string>
+       <string>3.更新订阅链接</string>
       </property>
       <property name="flat">
        <bool>true</bool>
