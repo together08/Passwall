@@ -1,6 +1,6 @@
 # Author: together08
 # Date: 2020-04-14
-# Time: 08:46
+# Time: 10:50
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -139,28 +139,28 @@ class Ui_MainWindow(object):
         self.label_4.setFont(font)
         self.label_4.setObjectName("label_4")
         self.label_16 = QtWidgets.QLabel(self.groupBox)
-        self.label_16.setGeometry(QtCore.QRect(10, 30, 51, 51))
+        self.label_16.setGeometry(QtCore.QRect(20, 30, 41, 41))
         self.label_16.setStyleSheet("")
         self.label_16.setText("")
         self.label_16.setPixmap(QtGui.QPixmap("images/logo.png"))
         self.label_16.setScaledContents(True)
         self.label_16.setObjectName("label_16")
         self.label_12 = QtWidgets.QLabel(self.groupBox)
-        self.label_12.setGeometry(QtCore.QRect(10, 210, 41, 41))
+        self.label_12.setGeometry(QtCore.QRect(10, 220, 31, 31))
         self.label_12.setStyleSheet("")
         self.label_12.setText("")
         self.label_12.setPixmap(QtGui.QPixmap("images/Connect.png"))
         self.label_12.setScaledContents(True)
         self.label_12.setObjectName("label_12")
         self.label_15 = QtWidgets.QLabel(self.groupBox)
-        self.label_15.setGeometry(QtCore.QRect(10, 300, 41, 41))
+        self.label_15.setGeometry(QtCore.QRect(10, 310, 31, 31))
         self.label_15.setStyleSheet("")
         self.label_15.setText("")
         self.label_15.setPixmap(QtGui.QPixmap("images/Settings.png"))
         self.label_15.setScaledContents(True)
         self.label_15.setObjectName("label_15")
         self.label_14 = QtWidgets.QLabel(self.groupBox)
-        self.label_14.setGeometry(QtCore.QRect(10, 410, 41, 41))
+        self.label_14.setGeometry(QtCore.QRect(10, 420, 31, 31))
         self.label_14.setStyleSheet("")
         self.label_14.setText("")
         self.label_14.setPixmap(QtGui.QPixmap("images/About.png"))
