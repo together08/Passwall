@@ -1,6 +1,6 @@
 # Author: together08
 # Date: 2020-04-14
-# Time:12:35
+# Time: 12:40
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -166,9 +166,6 @@ class Ui_MainWindow(object):
         self.label_14.setPixmap(QtGui.QPixmap("images/About.png"))
         self.label_14.setScaledContents(True)
         self.label_14.setObjectName("label_14")
-        self.label_23 = QtWidgets.QLabel(self.groupBox)
-        self.label_23.setGeometry(QtCore.QRect(0, 210, 72, 15))
-        self.label_23.setObjectName("label_23")
         self.label_9 = QtWidgets.QLabel(self.centralwidget)
         self.label_9.setGeometry(QtCore.QRect(360, 190, 81, 71))
         self.label_9.setStyleSheet("image: url(:/about/images/About.png);")
@@ -261,7 +258,7 @@ class Ui_MainWindow(object):
         self.label_24.setFont(font)
         self.label_24.setObjectName("label_24")
         self.comboBox = QtWidgets.QComboBox(self.widget_3)
-        self.comboBox.setGeometry(QtCore.QRect(80, 100, 141, 22))
+        self.comboBox.setGeometry(QtCore.QRect(60, 100, 191, 22))
         self.comboBox.setObjectName("comboBox")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
@@ -407,7 +404,6 @@ class Ui_MainWindow(object):
         self.label_8.setText(_translate("MainWindow", "关于------"))
         self.label_3.setText(_translate("MainWindow", "------分割线------"))
         self.label_4.setText(_translate("MainWindow", " Surf the Internet~~~"))
-        self.label_23.setText(_translate("MainWindow", "TextLabel"))
         self.label_10.setText(_translate("MainWindow", "所有连接数量"))
         self.label_11.setText(_translate("MainWindow", "可用连接数量"))
         self.label_13.setText(_translate("MainWindow", "-----------连接情况----------"))
