@@ -1,8 +1,8 @@
 # Author: together08
-# Time: 18:15
+# Date: 2020-04-18
+# Time: 18:28
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
 
 class Ui_Passwall_MainWindow(object):
     def setupUi(self, Passwall_MainWindow):
@@ -30,7 +30,7 @@ class Ui_Passwall_MainWindow(object):
         self.Passwall_Label.setAlignment(QtCore.Qt.AlignCenter)
         self.Passwall_Label.setObjectName("Passwall_Label")
         self.Connect_Label = QtWidgets.QLabel(self.MainMenu_GroupBox)
-        self.Connect_Label.setGeometry(QtCore.QRect(50, 220, 101, 21))
+        self.Connect_Label.setGeometry(QtCore.QRect(50, 221, 101, 20))
         font = QtGui.QFont()
         font.setFamily("等线")
         font.setPointSize(12)
@@ -46,7 +46,7 @@ class Ui_Passwall_MainWindow(object):
         self.Introduce_2.setAlignment(QtCore.Qt.AlignCenter)
         self.Introduce_2.setObjectName("Introduce_2")
         self.Canuse_PushButton = QtWidgets.QPushButton(self.MainMenu_GroupBox)
-        self.Canuse_PushButton.setGeometry(QtCore.QRect(0, 240, 181, 28))
+        self.Canuse_PushButton.setGeometry(QtCore.QRect(0, 248, 181, 20))
         font = QtGui.QFont()
         font.setFamily("黑体")
         font.setPointSize(10)
@@ -58,7 +58,7 @@ class Ui_Passwall_MainWindow(object):
         self.Canuse_PushButton.setFlat(True)
         self.Canuse_PushButton.setObjectName("Canuse_PushButton")
         self.Subset_PushButton = QtWidgets.QPushButton(self.MainMenu_GroupBox)
-        self.Subset_PushButton.setGeometry(QtCore.QRect(0, 330, 181, 28))
+        self.Subset_PushButton.setGeometry(QtCore.QRect(0, 338, 181, 20))
         font = QtGui.QFont()
         font.setFamily("黑体")
         font.setPointSize(10)
@@ -67,7 +67,7 @@ class Ui_Passwall_MainWindow(object):
         self.Subset_PushButton.setFlat(True)
         self.Subset_PushButton.setObjectName("Subset_PushButton")
         self.Proxyset_PushButton = QtWidgets.QPushButton(self.MainMenu_GroupBox)
-        self.Proxyset_PushButton.setGeometry(QtCore.QRect(0, 360, 181, 28))
+        self.Proxyset_PushButton.setGeometry(QtCore.QRect(0, 368, 181, 20))
         font = QtGui.QFont()
         font.setFamily("黑体")
         font.setPointSize(10)
@@ -83,7 +83,7 @@ class Ui_Passwall_MainWindow(object):
         self.Inteoduce_3.setAlignment(QtCore.Qt.AlignCenter)
         self.Inteoduce_3.setObjectName("Inteoduce_3")
         self.Help_PushButton = QtWidgets.QPushButton(self.MainMenu_GroupBox)
-        self.Help_PushButton.setGeometry(QtCore.QRect(0, 440, 181, 28))
+        self.Help_PushButton.setGeometry(QtCore.QRect(0, 448, 181, 20))
         font = QtGui.QFont()
         font.setFamily("黑体")
         font.setPointSize(10)
@@ -92,7 +92,7 @@ class Ui_Passwall_MainWindow(object):
         self.Help_PushButton.setFlat(True)
         self.Help_PushButton.setObjectName("Help_PushButton")
         self.Maintainer_PushButton = QtWidgets.QPushButton(self.MainMenu_GroupBox)
-        self.Maintainer_PushButton.setGeometry(QtCore.QRect(0, 470, 181, 28))
+        self.Maintainer_PushButton.setGeometry(QtCore.QRect(0, 478, 181, 20))
         font = QtGui.QFont()
         font.setFamily("黑体")
         font.setPointSize(10)
@@ -101,7 +101,7 @@ class Ui_Passwall_MainWindow(object):
         self.Maintainer_PushButton.setFlat(True)
         self.Maintainer_PushButton.setObjectName("Maintainer_PushButton")
         self.devbg_PushButton = QtWidgets.QPushButton(self.MainMenu_GroupBox)
-        self.devbg_PushButton.setGeometry(QtCore.QRect(0, 500, 181, 28))
+        self.devbg_PushButton.setGeometry(QtCore.QRect(0, 508, 181, 20))
         font = QtGui.QFont()
         font.setFamily("黑体")
         font.setPointSize(10)
@@ -110,7 +110,7 @@ class Ui_Passwall_MainWindow(object):
         self.devbg_PushButton.setFlat(True)
         self.devbg_PushButton.setObjectName("devbg_PushButton")
         self.Settings_Label = QtWidgets.QLabel(self.MainMenu_GroupBox)
-        self.Settings_Label.setGeometry(QtCore.QRect(50, 310, 101, 21))
+        self.Settings_Label.setGeometry(QtCore.QRect(50, 311, 101, 20))
         font = QtGui.QFont()
         font.setFamily("等线")
         font.setPointSize(12)
@@ -119,7 +119,7 @@ class Ui_Passwall_MainWindow(object):
         self.Settings_Label.setAlignment(QtCore.Qt.AlignCenter)
         self.Settings_Label.setObjectName("Settings_Label")
         self.About_Label = QtWidgets.QLabel(self.MainMenu_GroupBox)
-        self.About_Label.setGeometry(QtCore.QRect(50, 420, 101, 21))
+        self.About_Label.setGeometry(QtCore.QRect(50, 421, 101, 20))
         font = QtGui.QFont()
         font.setFamily("等线")
         font.setPointSize(12)
@@ -174,7 +174,7 @@ class Ui_Passwall_MainWindow(object):
         self.About_Logo.setScaledContents(True)
         self.About_Logo.setObjectName("About_Logo")
         self.Ping_PushButton = QtWidgets.QPushButton(self.MainMenu_GroupBox)
-        self.Ping_PushButton.setGeometry(QtCore.QRect(0, 270, 181, 28))
+        self.Ping_PushButton.setGeometry(QtCore.QRect(0, 278, 181, 20))
         font = QtGui.QFont()
         font.setFamily("黑体")
         font.setPointSize(10)
