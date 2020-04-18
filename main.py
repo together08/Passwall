@@ -1,10 +1,10 @@
 import sys
-from gui import Ui_MainWindow
+from gui import Ui_Passwall_MainWindow
 from PyQt5.QtWidgets import QApplication, QMainWindow
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     MainWindow = QMainWindow()
-    ui = Ui_MainWindow()
+    ui = Ui_Passwall_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
