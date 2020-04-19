@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>778</width>
-    <height>586</height>
+    <width>779</width>
+    <height>577</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -885,7 +885,7 @@
        <x>0</x>
        <y>310</y>
        <width>601</width>
-       <height>241</height>
+       <height>221</height>
       </rect>
      </property>
      <widget class="QLabel" name="Terminal_Label">
@@ -935,7 +935,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>778</width>
+     <width>779</width>
      <height>23</height>
     </rect>
    </property>
