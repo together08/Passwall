@@ -1,15 +1,15 @@
 # Author: together08
-# Date: 2020-04-18
-# Time: 18:28
+# Date: 2020-04-19
+# Time: 15:52
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_Passwall_MainWindow(object):
     def setupUi(self, Passwall_MainWindow):
         Passwall_MainWindow.setObjectName("Passwall_MainWindow")
-        Passwall_MainWindow.resize(778, 586)
+        Passwall_MainWindow.resize(779, 577)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("images/logo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("../.designer/backup/images/logo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Passwall_MainWindow.setWindowIcon(icon)
         self.Passwall_Centralwidget = QtWidgets.QWidget(Passwall_MainWindow)
         self.Passwall_Centralwidget.setObjectName("Passwall_Centralwidget")
@@ -318,7 +318,7 @@ class Ui_Passwall_MainWindow(object):
         self.Introduce_Main.setAlignment(QtCore.Qt.AlignCenter)
         self.Introduce_Main.setObjectName("Introduce_Main")
         self.Terminal_Widget = QtWidgets.QWidget(self.Widgets_Groupbox)
-        self.Terminal_Widget.setGeometry(QtCore.QRect(0, 310, 601, 241))
+        self.Terminal_Widget.setGeometry(QtCore.QRect(0, 310, 601, 221))
         self.Terminal_Widget.setObjectName("Terminal_Widget")
         self.Terminal_Label = QtWidgets.QLabel(self.Terminal_Widget)
         self.Terminal_Label.setGeometry(QtCore.QRect(0, 0, 601, 31))
@@ -333,7 +333,7 @@ class Ui_Passwall_MainWindow(object):
         self.Terminal_TextBrowser.setObjectName("Terminal_TextBrowser")
         Passwall_MainWindow.setCentralWidget(self.Passwall_Centralwidget)
         self.Mainmenu_Menubar = QtWidgets.QMenuBar(Passwall_MainWindow)
-        self.Mainmenu_Menubar.setGeometry(QtCore.QRect(0, 0, 778, 23))
+        self.Mainmenu_Menubar.setGeometry(QtCore.QRect(0, 0, 779, 23))
         self.Mainmenu_Menubar.setObjectName("Mainmenu_Menubar")
         self.Connect_Menu = QtWidgets.QMenu(self.Mainmenu_Menubar)
         self.Connect_Menu.setObjectName("Connect_Menu")
@@ -416,7 +416,7 @@ class Ui_Passwall_MainWindow(object):
         self.Upsub_PushButton.setText(_translate("Passwall_MainWindow", "4.更新订阅节点"))
         self.Inputserver_PushButton.setText(_translate("Passwall_MainWindow", "5.剪贴板导入节点"))
         self.Introduce_Main.setText(_translate("Passwall_MainWindow", "        Passwall--让您的代理之路所向披靡"))
-        self.Terminal_Label.setText(_translate("Passwall_MainWindow", "-----------操作终端----------"))
+        self.Terminal_Label.setText(_translate("Passwall_MainWindow", "-----------LOG显示----------"))
         self.Terminal_TextBrowser.setHtml(_translate("Passwall_MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
